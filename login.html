@@ -8,15 +8,47 @@
     <title>Login</title>
 </head>
 <body>
-    <header>
+    <div class="main">
 
-    </header>
 
-    <hr>
+        <header>
+            <h1>Crie sua conta</h1>
+        </header>
+
+        <form class="form" id="form">
+            <div class="controle">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <i class="sucesso"><img src="./src/assets/sucesso.svg" alt="Sucesso"></i>
+                <i class="error"><img src="./src/assets/error.svg" alt="Error"></i>
+                <small>Error</small>
+            </div>
+            
+            <div class="controle">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <i class="sucesso"><img src="./src/assets/sucesso.svg" alt="Sucesso"></i>
+                <i class="error"><img src="./src/assets/error.svg" alt="Error"></i>
+                <small>Error</small>
+            </div>
+            
+            <div class="controle">
+                <label for="password">Senha:</label>
+                <input type="password" id="senha">
+                <i class="sucesso"><img src="./src/assets/sucesso.svg" alt="Sucesso"></i>
+                <i class="error"><img src="./src/assets/error.svg" alt="Error"></i>
+                <small>Error</small>
+            </div>
+
+            <button type="submit" onclick="checarCampos()">Cadastrar</button>
+        
+        </form>
+    </div>
+
 
     
 
     <!-- Chamando o JavaScript externo -->
-     <script src="./src/js/script.js"></script>
+     <script src="./src/js/login.js"></script>
 </body>
 </html>
