@@ -59,14 +59,16 @@ header h1 {
 
 .controle.error small {
     flex-direction: column;
-    color: #730a0a;
+    margin-left: 4px;
+    font-size: 1rem;
+    color: #000;
     visibility: visible;
 }
 
 .controle i {
     position: absolute;
     top: 4px;
-    right: 10px;
+    right: -5px;
     visibility: hidden;
 }
 
